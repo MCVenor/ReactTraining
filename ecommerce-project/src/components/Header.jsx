@@ -10,7 +10,6 @@ export function Header({ cart }) {
     });
 
     return (
-        <>
             <div className="header">
                 <div className="left-section">
                     <Link to="/" className="header-link">
@@ -42,6 +41,5 @@ export function Header({ cart }) {
                     </Link>
                 </div>
             </div>
-        </>
     );
 }
